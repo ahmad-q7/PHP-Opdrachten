@@ -1,0 +1,23 @@
+label{
+    display: inline-block;
+    background-color:#00ffff;
+    width: 20%;
+}
+
+table, th, td {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+th{
+    background-color: grey;    
+}
+
+select {
+    width: 200px;
+    padding: 2px;
+}
+
+label[for="brouwcode"] {
+    background-color: #ff0000;
+}
