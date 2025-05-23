@@ -1,0 +1,112 @@
+/* Algemene pagina achtergrond en lettertype */
+body {
+  background-color: #e2e2e2;
+  font-family: Verdana, sans-serif;
+  padding: 30px;
+}
+
+/* Container voor overzicht en formulier */
+.container, .form-container {
+  background: white;
+  border: 1px solid #aaa;
+  padding: 15px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Specifiek voor het formulier, smaller maken */
+.form-container {
+  width: 350px;
+  max-width: none; /* overschrijven max-width van .container */
+}
+
+/* Titels */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulieren */
+form {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Zoekvak */
+input[type="text"] {
+  padding: 6px;
+  font-size: 14px;
+  width: 180px;
+  border: 1px solid #999;
+}
+
+/* Formuliervelden */
+select,
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Tekstvak hoogte */
+textarea {
+  height: 80px;
+}
+
+/* Knoppen */
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 6px;
+  width: auto;
+}
+
+/* Knoppen in formulier zijn 100% breed */
+.form-container button {
+  width: 100%;
+  padding: 8px;
+  margin-left: 0;
+}
+
+/* Hover effecten voor knoppen */
+button:hover {
+  background-color: #666;
+}
+
+/* Tabel opmaak */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* Tabel cellen */
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #bbb;
+  text-align: left;
+}
+
+/* Tabel header */
+th {
+  background-color: #444;
+  color: white;
+}
+
+/* Rijtjes highlight als je eroverheen gaat */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Labels in formulier */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
